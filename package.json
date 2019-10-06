@@ -1,0 +1,35 @@
+{
+    "name": "its-plugin-fontawesome-free",
+    "version": "1.0.0",
+    "description": "Plugin for icons-to-sprite, extractor for fontawesome-free",
+    "main": "./dist/index.js",
+    "types": "./types/index.d.ts",
+    "scripts": {
+        "build": "rm -r ./dist/* && rm -r ./types/* && tsc",
+        "test": "jest"
+    },
+    "author": "shaltaev <shaltaev.gleb@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^24.0.18",
+        "@types/node": "^12.7.11",
+        "@types/xml2js": "^0.4.5",
+        "jest": "^24.9.0",
+        "jest-atomic": "^1.0.2",
+        "ts-jest": "^24.1.0",
+        "typescript": "^3.6.3"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.11.2",
+        "icons-to-sprite": "^0.0.12",
+        "xml2js": "^0.4.22"
+    },
+    "bugs": {
+        "url": "https://github.com/shaltaev/its-plugin-fontawesome-free/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shaltaev/its-plugin-fontawesome-free.git"
+    },
+    "homepage": "https://github.com/shaltaev/its-plugin-fontawesome-free#readme"
+}

@@ -1,0 +1,30 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+      "tslint:recommended",
+      "tslint-microsoft-contrib",
+      "tslint-config-prettier"
+    ],
+    "linterOptions": {
+      "exclude": ["node_modules/**"]
+    },
+    "rules": {
+      "quotemark": [true, "single"],
+      "semicolon": false,
+      "indent": [true, "spaces", 2],
+      "interface-name": false,
+      "ordered-imports": false,
+      "object-literal-sort-keys": false,
+      "no-consecutive-blank-lines": false,
+      "import-name": false,
+      "interface-over-type-literal": false,
+      "array-type": false,
+      "member-access": [true, "no-public"],
+      "no-relative-imports": false,
+      "strict-boolean-expressions": false,
+      "export-name": false,
+      "variable-name": false,
+      "function-name": false
+    }
+  }
+  
